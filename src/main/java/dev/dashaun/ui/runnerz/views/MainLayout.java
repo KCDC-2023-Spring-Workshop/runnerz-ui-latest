@@ -53,7 +53,9 @@ public class MainLayout extends AppLayout {
 
         nav.addItem(new SideNavItem("Hello World", HelloWorldView.class, LineAwesomeIcon.GLOBE_SOLID.create()));
         nav.addItem(new SideNavItem("About", AboutView.class, LineAwesomeIcon.FILE.create()));
-
+        nav.addItem(new SideNavItem("Run Form", RunFormView.class, LineAwesomeIcon.USER.create()));
+        nav.addItem(new SideNavItem("Run Log", RunListView.class, LineAwesomeIcon.FILTER_SOLID.create()));
+        
         return nav;
     }
 
